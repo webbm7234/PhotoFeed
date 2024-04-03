@@ -1,1 +1,1 @@
-## Photo Feed App
+## Photo Feed Projects
