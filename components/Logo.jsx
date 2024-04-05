@@ -8,7 +8,9 @@ const Logo = () => {
     <Link href="/">
       <Image
         class="max-w-[100px] md:max-w-[165px]"
-        src="./assets/lws_logo.png"
+        src="/assets/lws_logo.png"
+        width={0}
+        height={0}
         alt="Lws"
       />
     </Link>
