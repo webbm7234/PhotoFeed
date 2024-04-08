@@ -1,3 +1,2 @@
-## Photo Feed Projects
+## Photo Feed Projects End to End
 
-<!--  -->
