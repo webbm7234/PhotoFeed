@@ -8,3 +8,15 @@ function getLocale(request) {
   let languages = new Navigator({ headers }).language();
   return match(languages, locales, defaultLocale);
 }
+
+export function middleware(request) {
+  const pathname = request.nextUrl.pathname;
+
+  const pathnameIsMissingLocale = locales.every(
+    (locale) => !pathname.startsWith(`/${locale}`) && pathname !== `/${locale}`
+  );
+
+  if (pathnameIsMissingLocale) {
+    const locale = getLocale(request);
+  }
+}
