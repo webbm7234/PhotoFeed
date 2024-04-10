@@ -1,10 +1,13 @@
+import PhotoCart from "./PhotoCard";
+
 const PhotoList = ({ photos }) => {
   return (
-    <div>
+    <div className="img-grid">
       {photos.map((photo) => (
-        <PhotoCart />
+        <PhotoCard key={photo.id} photo={photo} />
       ))}
     </div>
   );
 };
+
 export default PhotoList;
