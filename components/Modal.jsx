@@ -3,7 +3,6 @@
 import { useRouter } from "next/navigation";
 import { createPortal } from "react-dom";
 import { useEffect, useRef } from "react";
-
 import Image from "next/image";
 
 const Modal = ({ children }) => {
