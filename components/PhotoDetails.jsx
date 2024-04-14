@@ -58,7 +58,7 @@ const PhotoDetails = async ({ id, lang }) => {
               </div>
             </div>
             <button className="flex items-center gap-1.5 text-black/60 text-xs xl:text-sm">
-              <img src="/follow.svg" className="w-5 h-5" />
+              <img src="/icons/follow.svg" className="w-5 h-5" />
               {dictionary.follow}
             </button>
           </div>
@@ -68,7 +68,7 @@ const PhotoDetails = async ({ id, lang }) => {
           <div className="flex items-stretch gap-3">
             <button className="flex-1 border py-1.5 rounded text-xs lg:text-sm flex items-center justify-center text-center gap-1.5 font-bold hover:bg-yellow-400">
               <Image
-                src="/heart.svg"
+                src="/icons/heart.svg"
                 className="w-5 h-5"
                 width={50}
                 height={50}
@@ -77,7 +77,7 @@ const PhotoDetails = async ({ id, lang }) => {
             </button>
             <button className="flex-1 border py-1.5 rounded text-xs lg:text-sm flex items-center justify-center text-center gap-1.5 font-bold hover:bg-yellow-400">
               <Image
-                src="/save.svg"
+                src="/icons/save.svg"
                 className="w-5 h-5"
                 width={50}
                 height={50}
@@ -86,7 +86,7 @@ const PhotoDetails = async ({ id, lang }) => {
             </button>
             <button className="flex-1 border py-1.5 rounded text-xs lg:text-sm flex items-center justify-center text-center gap-1.5 font-bold hover:bg-yellow-400">
               <Image
-                src="/share.svg"
+                src="/icons/share.svg"
                 className="w-5 h-5"
                 width={50}
                 height={50}
