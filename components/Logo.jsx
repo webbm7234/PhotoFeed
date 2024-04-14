@@ -1,17 +1,15 @@
-import Image from "next/image";
 import Link from "next/link";
-
-import React from "react";
+import Image from "next/image";
 
 const Logo = () => {
   return (
     <Link href="/">
       <Image
-        class="max-w-[100px] md:max-w-[165px]"
-        src="/assets/lws_logo.png"
-        width={0}
-        height={0}
+        className="max-w-[100px] md:max-w-[165px]"
+        src="/lws_logo.png"
         alt="Lws"
+        height={100}
+        width={165}
       />
     </Link>
   );

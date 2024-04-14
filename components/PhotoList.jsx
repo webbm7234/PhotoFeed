@@ -1,4 +1,4 @@
-import PhotoCart from "./PhotoCard";
+import PhotoCard from "./PhotoCard";
 
 const PhotoList = ({ photos }) => {
   return (
